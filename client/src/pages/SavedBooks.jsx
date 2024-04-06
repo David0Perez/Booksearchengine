@@ -6,9 +6,9 @@ import {
   Row,
   Col
 } from 'react-bootstrap';
-import { useMutation } from '@apollo/client';
+import { useMutation } from './@apollo/client';
 import {GET_ME } from '../utils/queries';
-import { useQuery } from '@apollo/client';
+import { useQuery } from './@apollo/client';
 
 import { getMe, deleteBook } from '../utils/API';
 import Auth from '../utils/auth';
